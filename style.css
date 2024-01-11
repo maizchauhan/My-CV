@@ -1,0 +1,219 @@
+body {
+    font-family: 'playfair Display' , serif;
+}
+#hero {
+    background-color:rgb(85, 105, 220); 
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+
+}
+.container03 {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-left: 144px;
+}
+.container {
+    display: inline-flex;
+    gap: 70px;
+    /* width: 100%;
+    height: 100vh; */
+    /* overflow: hidden; */
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-right: 0;
+    padding-right: 0;
+
+}
+.section1-img {
+    width: 1100px;
+    height: 600px;
+    /* object-fit: cover; */
+    filter: brightness(60%);
+    border: none;
+    margin-top: 0px;
+    padding-top: 0px;
+
+    /* mix-blend-mode:multiply; */
+} 
+
+ .overlay {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 32px;
+    color: #fff;
+    /* text-align: center; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+} 
+/* .main {
+    font-size: 48px;
+    font-weight: 800;
+} */
+
+.details {
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.mypic{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.profile {
+    color: #fff;
+}
+.name {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.info {
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 40px;
+}
+.email {
+    margin-top: 50px;
+}
+
+.container-fluid {
+    background-color: rgba(85, 105, 220, 0.1);
+}
+.contain {
+    margin-left: 144px;
+}
+.about {
+    width: 310px;
+    margin-top: 85px ;
+    margin-right: 0px;
+    margin-bottom: 17px;
+    color: rgb(85, 105, 220);
+    font-style: italic;
+    
+    
+}
+.back {
+    color: rgb(85, 105, 220);
+    margin-bottom: 54px;
+    letter-spacing: 3px;
+}
+.myself {
+    font-weight: 100;
+    margin-bottom: 64px;
+    opacity: 0.5;
+}
+
+.resume2 {
+    margin-left: 144px;
+}
+.education {
+    margin: 95px 0px 17px 0px;
+    color: rgb(85, 105, 220);
+    font-style: italic;
+}
+.learn {
+    color: rgb(85, 105, 220);
+    margin-bottom: 59px;
+}
+.work {
+    letter-spacing: 5;
+}
+.year {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.tatva {
+    margin-bottom: 95px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.it {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+.skilltitle {
+    margin: 91px 0px 17px 0px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: rgb(85, 105, 220);
+    font-size: 42px;
+    font-weight: normal;
+}
+.skillnote {
+    margin-bottom: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(85, 105, 220);
+    letter-spacing: 3px;
+}
+.myskills {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+hr {
+    width: 30px;
+    height: 5px;
+   
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.progress {
+    height: 5px;
+    width: 600px;
+}
+#footer {
+    background-color:rgba(85, 105, 220, 0.1) ;
+    font-family: 'Playfair Display', serif;
+}
+.containerr {
+    margin-left: 144px;
+}
+.text-body-secondary {
+    
+    font-size: 42px;
+    font-style: italic;
+    color: rgb(85, 105, 220);
+
+}
+.contact {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.email {
+    font-size: 20px;
+    opacity: 0.8;
+}
+.tell {
+    font-size: 20px;
+    opacity: 0.8;
+}
+.container2 {
+    background-color: rgb(85, 105, 220);
+    color: #fff;
+    text-align: center;
+    font-family: 'playfair Display' , serif;
+    font-style: i;
+}
